@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<worldsens xmlns="http://worldsens.citi.insa-lyon.fr">
+
+<!-- == Worldsens ===================================================== -->
+<simulation nodes="6" duration="10s" x="100" y="100" z="100"/>
+
+<!-- == Entities ===================================================== -->
+<entity name="none" library="modulation_none">
+</entity>
+
+<entity name="range" library="propagation_range" >
+<init  range="60"/>
+</entity>
+
+<entity name="interf" library="interferences_orthogonal">
+</entity>
+
+<entity name="file" library="mobility_filestatic" >
+<init  file="mobility2.log"/>
+</entity>
+ 
+<entity name="omnidirectionnal" library="antenna_omnidirectionnal" >
+<default loss="-92" angle-xy="random" angle-z="random"/>
+</entity>
+
+
+<entity name="radio" library="radio_half1d" >
+  <default sensibility="-90" T_b="727" dBm="10" channel="0" modulation="none"/>
+</entity>
+
+
+<!-- == Environment ===================================================== -->
+<environment>
+<propagation entity="range"/>
+<interferences entity="interf"/>
+<modulation entity="none"/>
+</environment>
+
+<!-- == Bundle ===================================================== -->
+<bundle name="file" worldsens="false" default="true" birth="0">
+  <mobility entity="file"/>
+  <antenna entity="omnidirectionnal">
+    <up entity="radio"/>
+  </antenna>
+
+  <with entity="radio">
+    <down entity="omnidirectionnal"/>
+  </with> 
+</bundle>
+
+<!-- == Node ===================================================== -->
+
+</worldsens>

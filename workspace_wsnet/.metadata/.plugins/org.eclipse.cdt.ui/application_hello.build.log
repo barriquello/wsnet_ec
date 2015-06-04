@@ -1,0 +1,8 @@
+13:18:24 **** Rebuild of configuration Debug for project application_hello ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Gisele\\workspace_wsnet_git\\wsnet_ec\\workspace_wsnet/wsnet_ec/include" -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+gcc -shared -o libapplication_hello.dll hello.o 
+cp libapplication_hello.dll "C:\\Users\\Gisele\\workspace_wsnet_git\\wsnet_ec\\workspace_wsnet/lib/" 
+
+13:18:25 Build Finished (took 749ms)
+

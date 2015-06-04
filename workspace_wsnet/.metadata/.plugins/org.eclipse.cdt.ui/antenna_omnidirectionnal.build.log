@@ -1,0 +1,8 @@
+13:18:22 **** Rebuild of configuration Debug for project antenna_omnidirectionnal ****
+Info: Internal Builder is used for build
+gcc -I../../../wsnet_ec/include "-IC:\\Users\\Gisele\\workspace_wsnet_git\\wsnet_ec\\workspace_wsnet/wsnet_ec/include" -O0 -g3 -Wall -c -fmessage-length=0 -o omnidirectionnal.o "..\\omnidirectionnal.c" 
+gcc -shared -o libantenna_omnidirectionnal.dll omnidirectionnal.o 
+cp libantenna_omnidirectionnal.dll "C:\\Users\\Gisele\\workspace_wsnet_git\\wsnet_ec\\workspace_wsnet/lib/" 
+
+13:18:23 Build Finished (took 828ms)
+

@@ -1,0 +1,8 @@
+13:18:26 **** Rebuild of configuration Debug for project mobility_filestatic ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\Gisele\\workspace_wsnet_git\\wsnet_ec\\workspace_wsnet/wsnet_ec/include" -O0 -g3 -Wall -c -fmessage-length=0 -o filestatic.o "..\\filestatic.c" 
+gcc -shared -o libmobility_filestatic.dll filestatic.o 
+cp libmobility_filestatic.dll "C:\\Users\\Gisele\\workspace_wsnet_git\\wsnet_ec\\workspace_wsnet/lib/" 
+
+13:18:26 Build Finished (took 717ms)
+

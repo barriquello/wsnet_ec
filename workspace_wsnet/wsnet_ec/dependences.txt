@@ -1,0 +1,11 @@
+Glib
+
+http://www.vultaire.net/blog/2011/01/18/adventures-with-c-1-glib-on-windows-with-mingwmsys-using-autotools/comment-page-1/
+
+GSL
+
+http://www.physics.buffalo.edu/phy411-506/tools/index.html
+
+
+libxml
+http://gnuwin32.sourceforge.net/packages/libxml2.htm ??
