@@ -11,7 +11,7 @@ How to use it:
 
 2 - Install MingW: http://www.mingw.org/
 
-3 - Install the folowing software libraries to MingW (it is required for compiling the simulator, but nbot the models)
+3 - Install the folowing software libraries to MingW (it is required for compiling the simulator, but not the models)
 
     libglib2.0-0, libxml2, libgsl0, libiconv
     
