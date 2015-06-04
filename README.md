@@ -1,7 +1,7 @@
 # wsnet_ec
 Wsnet port for Eclipse + mingW
 
-This a port of WSNET simulator avialable at http://wsnet.gforge.inria.fr/index.html.
+This is a port of WSNET simulator available at http://wsnet.gforge.inria.fr/index.html.
 
 The code has been modified in order to compile and link the project using Eclipse and MingW GCC.
 
