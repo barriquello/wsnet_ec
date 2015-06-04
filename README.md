@@ -21,7 +21,7 @@ How to use it:
 Organizaton:
 
 -  The project is comprised by several eclipse projects (one is the simulator and the others are the models used by the simulator)
--  
+
 -  Wsnet is a modular simulator, which loads the models at runtime. The models are compiled as shared libraris (*.dll)
 
 License
