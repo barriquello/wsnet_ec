@@ -17,6 +17,7 @@ How to use it:
     
 4 -  The project is provided as an Eclipse workspace. To use it, clone the project and, when Eclipse starts, point it to project's workspace.
 
+5 -  Import the projects into Eclipse, menu File --> Import --> Existing Projects into Workspace. Click Browse..., select project folder (wsnet_ec or any model inside the folder models), click OK and Finish. 
 
 Organizaton:
 
