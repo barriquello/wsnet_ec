@@ -1,8 +1,0 @@
-13:18:28 **** Rebuild of configuration Debug for project propagation_range ****
-Info: Internal Builder is used for build
-gcc "-IC:\\Users\\Gisele\\workspace_wsnet_git\\wsnet_ec\\workspace_wsnet/wsnet_ec/include" -O0 -g3 -Wall -c -fmessage-length=0 -o range.o "..\\range.c" 
-gcc -shared -o libpropagation_range.dll range.o 
-cp libpropagation_range.dll "C:\\Users\\Gisele\\workspace_wsnet_git\\wsnet_ec\\workspace_wsnet/lib/" 
-
-13:18:28 Build Finished (took 624ms)
-
